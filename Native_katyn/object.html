@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Katyn | Obiekt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--  -->
+    <div class="container">
+
+        <header>
+            <div class="company">
+                <div class="logo">
+                    <h1>MUZEUM KATYŃSKIE</h1>
+                </div>
+            </div>
+
+            <nav>
+
+                <a href="/login">
+                    <i class="fa fa-user"></i>
+                </a>
+
+                <a href="javascript:void(0);" class="icon" onclick="menu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+
+
+        <div class="object-info">
+            <h3>NAZWA OBIEKTU</h3>
+            <p>Krótki opis obiektu</p>
+        </div>
+
+        <div class="slideshow">
+
+            <div class="slide">
+                <img src="https://source.unsplash.com/800x600?nature,water" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://source.unsplash.com/800x600?nature,trees" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://source.unsplash.com/800x600?nature,mountains" alt="">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+    </div>
+    <!-- END OF WRAPPER -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

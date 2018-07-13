@@ -1,0 +1,6 @@
+ps aux | grep node
+Find the process ID (second from the left):
+kill -9 PRCOCESS_ID
+
+net start MongoDB
+"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
